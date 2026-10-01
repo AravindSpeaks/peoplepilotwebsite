@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="120" height="120">
+  <rect width="64" height="64" rx="12" fill="#FFFFFF"/>
+  <g fill="none" stroke="#06223A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 36c6-8 22-6 26 4"/>
+    <path d="M26 20c2-3 8-4 12-2" />
+  </g>
+  <circle cx="18" cy="36" r="3.6" fill="#06223A"/>
+  <text x="36" y="46" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="9" fill="#06223A">PeoplePilot</text>
+</svg>

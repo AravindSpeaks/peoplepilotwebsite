@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" rx="16" fill="#071827"/>
+  <g transform="translate(20,20)">
+    <text x="0" y="28" font-family="Inter, Arial" font-size="18" fill="#DFFBF6" font-weight="700">Performance — Q3 reviews</text>
+    <g transform="translate(0,44)">
+      <rect width="560" height="16" rx="8" fill="#05262e" />
+      <rect width="420" height="16" rx="8" fill="#3dd1c6" />
+    </g>
+    <g transform="translate(0,80)">
+      <rect width="260" height="200" rx="8" fill="#081922" />
+      <rect x="280" width="260" height="200" rx="8" fill="#071827" />
+    </g>
+  </g>
+</svg>
