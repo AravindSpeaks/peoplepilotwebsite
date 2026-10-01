@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
-const pngToIco = require('png-to-ico');
 
 (async ()=>{
   try{
@@ -28,6 +27,7 @@ const pngToIco = require('png-to-ico');
       path.join(outDir, 'icon-32.png'),
       path.join(outDir, 'icon-48.png')
     ];
+    const { default: pngToIco } = await import('png-to-ico');
     const buf = await pngToIco(icoSources);
     fs.writeFileSync(icoOut, buf);
     console.log('wrote', icoOut);
