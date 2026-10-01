@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build && npm run generate:favicons"
+  functions = "netlify/functions"
+  publish = "dist"
+
+[context.production.environment]
+  NODE_ENV = "production"

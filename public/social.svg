@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#06223A"/>
+  <g transform="translate(80,80)">
+    <rect width="1040" height="470" rx="28" fill="#071827"/>
+    <g transform="translate(40,40)">
+      <text x="0" y="60" font-family="Inter, Arial, sans-serif" font-size="48" fill="#E6FFF9" font-weight="700">PeoplePilot</text>
+      <text x="0" y="120" font-family="Inter, Arial, sans-serif" font-size="28" fill="#A7E9DE">HR, reimagined around people.</text>
+      <rect x="0" y="160" width="420" height="260" rx="12" fill="#0B2A37"/>
+      <g transform="translate(24,184)" fill="#DFFBF6">
+        <rect width="200" height="28" rx="6" fill="#0E3E46"/>
+        <rect y="44" width="300" height="22" rx="6" fill="#071827"/>
+        <rect y="80" width="120" height="18" rx="6" fill="#071827"/>
+      </g>
+    </g>
+  </g>
+</svg>
