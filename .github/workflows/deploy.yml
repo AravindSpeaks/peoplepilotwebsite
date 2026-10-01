@@ -25,7 +25,10 @@ jobs:
       - name: Wait for server
         run: npx wait-on http://127.0.0.1:8080
       - name: Run pa11y accessibility tests
-        run: npx pa11y http://127.0.0.1:8080
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+          PUPPETEER_ARGS: --no-sandbox
+        run: npx pa11y http://127.0.0.1:8080 --chrome-launcher --chrome-args='--no-sandbox --disable-dev-shm-usage'
 
   build-and-deploy:
     needs: accessibility-check
